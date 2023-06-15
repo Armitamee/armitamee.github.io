@@ -1,0 +1,327 @@
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 4px;
+}
+
+nav{
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+li > a{
+    text-decoration: none;
+    color: #0C0C32;
+ }
+
+ div#home{
+    background-color: #061D63;
+    width: 1300px; 
+    height: 720px;
+ }
+
+ #home h1{
+    letter-spacing: 25px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    font-size: 40px;
+    backdrop-filter: blur(5px);
+    padding-top: 240px;
+    color: #FFFFFF;
+    text-shadow: 3px 4px 5px #000;
+ }
+ div#gambarubur{
+    position: absolute;
+    width: 10px;
+    left: 600px;
+    top: 260px;
+ }
+
+ div#gambarbayang{
+    position: absolute;
+    width: 109px;
+    height: 11px;
+    left: 590px;
+    top: 455px;
+    z-index: 0;
+ }
+
+ #home h2{
+   font-family: 'Abyssinica SIL';
+   position: absolute;
+   width: 284px;
+   height: 30px;
+   left: 155px;
+   top: 320px;
+   font-size: 20px;
+   color: #FFFFFF;
+   font-style: normal;
+   letter-spacing: 3px;
+ }
+
+ div#aboutme{
+  background-color: #0C0C32;
+  width: 1300px; 
+  height: 720px;
+  color: #FFFFFF;
+}
+
+ #aboutme h1{
+   position: absolute;
+   width: 743px;
+   height: 60px;
+   left: 380px;
+   top: 810px;
+
+   font-family: 'Purple Purse';
+   font-style: normal;
+   font-weight: 400px;
+   font-size: 61px;
+   line-height: 76px;
+ }
+
+ #aboutme h2{
+   position: absolute;
+   width: 488px;
+   height: 60px;
+   left: 380px;
+   top: 900px;
+
+   font-family: 'Abhaya Libre ExtraBold';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 28px;
+   line-height: 33px;
+ }
+
+ #aboutme h4{
+  position: absolute;
+   width: 303px;
+   height: 33px;
+   left: 380px;
+   top: 1000px;
+
+   font-family: 'Abhaya Libre ExtraBold';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 20px;
+   line-height: 24px;
+ }
+
+ #fotoku img{
+   position: absolute;
+   width: 230px;
+   height: 230px;
+   left: 100px;
+   top: 870px;
+ }
+
+ #sea img{
+   position: absolute;
+   width: 454px;
+   height: 502px;
+   left: 710px;
+   top: 810px;
+ }
+
+div#myproject{
+  background-color: #030728;
+  width: 1300px; 
+  height: 720px;
+  color: #FFFFFF;
+}
+ 
+#myproject h1{
+  position: absolute;
+  width: 206px;
+  height: 57px;
+  left: 100px;
+  top: 1500px;
+}
+
+.fest img{
+  position: absolute;
+  width: 200px;
+  height: 355.56px;
+  left: 77px;
+  top: 1600px;
+}
+
+.poster img{
+  position: absolute;
+  width: 260px;
+  height: 341px;
+  height: 355.56px;
+  left: 500px;
+  top: 1600px;
+}
+
+.cy img{
+  position: absolute;
+  width: 200px;
+  height: 355.09px;
+  height: 355.56px;
+  left: 980px;
+  top: 1600px;
+}
+
+.fest h3{
+  position: absolute;
+  top: 1940px;
+  left: 327px;
+  transform: rotate(-89.76deg);
+  transform-origin: 0 0;
+}
+
+.poster h3{
+  position: absolute;
+  top: 1940px;
+  left: 791px;
+  transform: rotate(-89.76deg);
+  transform-origin: 0 0;
+}
+
+.cy h3{
+  position: absolute;
+  top: 1940px;
+  left: 1201px;
+  transform: rotate(-89.76deg);
+  transform-origin: 0 0;
+}
+
+div#contact{
+  background-color: #050618;
+  width: 1300px; 
+  height: 720px;
+  color: #FFFFFF;
+}
+
+#contact h2{
+  position: absolute;
+  width: 403px;
+  height: 81px;
+  left: 78px;
+  top: 2200px;
+  font-family: 'Inter';
+  font-weight: 400px;
+  font-size: 50px;
+}
+
+#fblogo img{
+  position: absolute;
+  width: 30px;
+  height: 46.67px;
+  left: 1250px;
+  top: 2460px;
+}
+
+#iglogo img{
+  position: absolute;
+  width: 40px;
+  height: 51.03px;
+  left: 1245px;
+  top: 2530px;
+}
+
+#walogo img{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1250px;
+  top: 2610px;
+}
+
+#jellyfish img{
+  position: absolute;
+  width: 427px;
+  height: 462px;
+  left: 8px;
+  top: 2426px;
+}
+
+form{
+  width: 380px;
+  padding-left: 650px;
+  padding-top: 200px;
+}
+
+input{
+  border-radius: 10px;
+  background: transparent;
+  height: 50px;
+  width: 300px;
+  color: #FFFFFF;
+  border:solid 1px #FFFFFF;
+  margin: 10px 0 30px;
+  border-radius: 4px; 
+}
+
+textarea{
+  border-radius: 10px;
+  background: transparent;
+  height: 80px;
+  width: 300px;
+  color: #FFFFFF;
+  border:solid 1px #FFFFFF;
+  margin: 10px 0 30px;
+  border-radius: 4px; 
+}
+
+button{
+  background-color: transparent;
+  color: #fff;
+  border:solid 1px #FFFFFF;
+  height: 40px;
+  width: 70px;
+  margin: 0 110px 30px;
+}
+
+.contactform{
+  display: flex;
+}
+
+article{
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 160px;
+  margin-right: 10px;
+  margin-left: 16px;
+}
+
+.ft1 img{
+  position: absolute;
+  width: 73px;
+  height: 71px;
+  left: 365px;
+  top: 1048px;
+ }
+
+ .ft2 img{
+  position: absolute;
+  width: 65px;
+  height: 71px;
+  left: 450px;
+  top: 1048px;
+ }
+
+ .ft3 img{
+  position: absolute;
+  width: 65px;
+  height: 71px;
+  left: 530px;
+  top: 1048px;
+ }
+
+#abtme{
+  padding-top: 420px;
+  padding-left: 75px;
+  z-index: 2;
+}
